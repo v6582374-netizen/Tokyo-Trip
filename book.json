@@ -1,0 +1,11 @@
+{
+  "title": "Tokyo Trip 2026",
+  "description": "2026 年 6 月东京 / 横滨 / 镰仓 7 日旅行计划",
+  "author": "v6582374-netizen",
+  "language": "zh-hans",
+  "plugins": ["-highlight"],
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  }
+}

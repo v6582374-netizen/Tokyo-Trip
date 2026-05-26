@@ -214,7 +214,7 @@
   - 格式：`### {Major_Area 中文}（{Romaji}）` + `* [{地点中文名}](intros/intro-{romaji-id}.md)`
   - _Requirements: 2.7_
 
-- [~] 40. (任务组 E) 区域 / 子地点层级修正验证
+- [x] 40. (任务组 E) 区域 / 子地点层级修正验证
   - 涉及文件：`/day-1-2026-06-03.md` ~ `/day-7-2026-06-09.md`
   - 运行 `grep -n "^## " day-*.md` 确认所有 `## ` 标题仅对应 Major_Area
   - 运行 `grep -n "^### " day-*.md` 确认所有 `### ` 标题仅对应子地点
@@ -223,36 +223,36 @@
 
 ### 任务组 F：上野公园重排时刻（design §8 / requirements §5）
 
-- [~] 41. (任务组 F) day-3 中「### 上野恩赐公园」动线行时刻调整为 10:20–11:50
+- [x] 41. (任务组 F) day-3 中「### 上野恩赐公园」动线行时刻调整为 10:20–11:50
   - 涉及文件：`/day-3-2026-06-05.md`
   - 不动 places.json / build_places.py（已存在分支，仅修改时刻）
   - _Requirements: 5.2, 5.3a_
 
-- [~] 42. (任务组 F) 新建 intros/intro-ueno-park.md
+- [x] 42. (任务组 F) 新建 intros/intro-ueno-park.md
   - 涉及文件：`/intros/intro-ueno-park.md`（新建）
   - 按抽离规则，含 12 个必含字段 + 庭园 / 公园专属字段
   - _Requirements: 5.4, 2.6_
 
 ### 任务组 G：すし銚子丸 待办标记（design §10 / requirements §8，默认决策 8.4-① 不纳入）
 
-- [~] 43. (任务组 G) Day 5 文档加占位 blockquote 提示銚子丸待核实
+- [x] 43. (任务组 G) Day 5 文档加占位 blockquote 提示銚子丸待核实
   - 涉及文件：`/day-5-2026-06-07.md`
   - 在文档尾「次日提醒」段前加 `> ⚠️ すし銚子丸 6 月店庆感谢祭三项核实（活动期间 / 解体秀 / 优惠）待用户旅行前 1 周自行核实（官网 https://www.choshimaru.co.jp/）`
   - _Requirements: 8.4_
 
-- [~] 44. (任务组 G) Day 6 文档加占位 blockquote 提示銚子丸待核实
+- [x] 44. (任务组 G) Day 6 文档加占位 blockquote 提示銚子丸待核实
   - 涉及文件：`/day-6-2026-06-08.md`
   - 同上格式
   - _Requirements: 8.4_
 
 ### 任务组 H：Cost_Scenario_Comparison 表落地（design §11.6 / requirements §9.5 / §10.4）
 
-- [~] 45. (任务组 H) day-1 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 45. (任务组 H) day-1 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-1-2026-06-03.md`
   - 场景 A：¥1,470（Suica 直付）；场景 B：¥1,470（横滨日不在 TST 期内，与 A 相同）
   - _Requirements: 9.5, 10.4_
 
-- [~] 46. (任务组 H) day-2 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 46. (任务组 H) day-2 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-2-2026-06-04.md`
   - 场景 A：¥2,200；场景 B：¥2,200（镰仓日不在 TST 期内）
   - _Requirements: 9.5, 10.4_

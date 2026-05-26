@@ -337,6 +337,30 @@
       "date": "2026-06-06",
       "seq": 3,
       "from": "神保町",
+      "to": "小伝馬町",
+      "line": "都营浅草线",
+      "fare_jpy": 0,
+      "tst_covered": "✅",
+      "in_tst_window": true,
+      "note": "小宫商店购伞往路；都营浅草线 1 站约 2 分钟（TST ✅）"
+    },
+    {
+      "day": 4,
+      "date": "2026-06-06",
+      "seq": 4,
+      "from": "小伝馬町",
+      "to": "神保町",
+      "line": "都营浅草线",
+      "fare_jpy": 0,
+      "tst_covered": "✅",
+      "in_tst_window": true,
+      "note": "小宫商店购伞返路；都营浅草线 1 站约 2 分钟（TST ✅）"
+    },
+    {
+      "day": 4,
+      "date": "2026-06-06",
+      "seq": 5,
+      "from": "神保町",
       "to": "新宿",
       "line": "都营新宿线",
       "fare_jpy": 0,
@@ -347,7 +371,7 @@
     {
       "day": 4,
       "date": "2026-06-06",
-      "seq": 4,
+      "seq": 6,
       "from": "新宿",
       "to": "中野（Mandarake Nakano）",
       "line": "东京 Metro 丸之内线",
@@ -359,7 +383,7 @@
     {
       "day": 4,
       "date": "2026-06-06",
-      "seq": 5,
+      "seq": 7,
       "from": "中野",
       "to": "新宿（Golden-Gai 夜游）",
       "line": "东京 Metro 丸之内线",
@@ -371,7 +395,7 @@
     {
       "day": 4,
       "date": "2026-06-06",
-      "seq": 6,
+      "seq": 8,
       "from": "新宿",
       "to": "两国（COGO RYOGOKU）",
       "line": "都营大江户线（一线直达）",
@@ -615,15 +639,17 @@
         "note": "若放弃三田线替代路线、改走 JR 中央线，则 Day 3 covered_count = 2；本表按 design.md 推荐路线计 3"
       },
       "day_4_2026-06-06": {
-        "covered_count": 5,
+        "covered_count": 7,
         "covered_rides": [
           "半蔵门线段（祖师谷大藏 → 神保町 段中的 Metro 部分）",
+          "都营浅草线（神保町 → 小伝馬町，小宫商店购伞往路）",
+          "都营浅草线（小伝馬町 → 神保町，小宫商店购伞返路）",
           "都营新宿线（神保町 → 新宿）",
           "东京 Metro 丸之内线（新宿 → 中野）",
           "东京 Metro 丸之内线（中野 → 新宿，夜游回头）",
           "都营大江户线（新宿 → 两国，回程）"
         ],
-        "note": "Day 4 seq 1 的「两国 → 新宿段」大江户线部分与 seq 6 的回程构成同一日往返 / 续乘节奏，design.md 把入新宿前的 Metro 段并入半蔵门线段不重复计数"
+        "note": "Day 4 seq 1 的「两国 → 新宿段」大江户线部分与 seq 8 的回程构成同一日往返 / 续乘节奏，design.md 把入新宿前的 Metro 段并入半蔵门线段不重复计数；本次精修新增神保町 ↔ 小伝馬町往返 2 段（TST ✅）"
       },
       "day_5_2026-06-07": {
         "covered_count": 6,
@@ -648,10 +674,10 @@
         "note": "TST 当日仍有效，全日 Metro / Toei 高密度使用；丸之内线 + 日比谷线串接的 3 个站点段被 design.md 合并计为 1 次乘车"
       }
     },
-    "cumulative_covered_rides": 19,
+    "cumulative_covered_rides": 21,
     "cumulative_covered_rides_min_threshold": 12,
     "threshold_passed": true,
-    "_threshold_margin": "19 - 12 = 7（≥ 12 阈值通过，留 7 段冗余）",
+    "_threshold_margin": "21 - 12 = 9（≥ 12 阈值通过，留 9 段冗余）",
     "validates": "§10.3, §10.4"
   },
   "non_tst_days": {

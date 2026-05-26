@@ -1,4 +1,4 @@
-# Tokyo Trip 2026 GitBook
+# 锅巴的奇妙冒险之迷失东京 GitBook
 
 这是 2026/06/03 – 2026/06/09 日本关东 7 日旅行计划的 GitBook/HonKit 文档站点。
 

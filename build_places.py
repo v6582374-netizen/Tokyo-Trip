@@ -169,6 +169,10 @@ PLACE_PLAN = {
     "Roppongi":
         dict(day=5, type="商业街", major_area="东京—六本木",
              sub_area="六本木 Hills / Midtown 之间"),
+    "21_21 Design Sight":
+        dict(day=5, type="美术馆 / 建筑（安藤忠雄，2007）",
+             major_area="东京—六本木",
+             sub_area="东京 Midtown Garden"),
     "Nezu Museum":
         dict(day=5, type="美术馆 / 建筑（隈研吾，2009）",
              major_area="东京—原宿 / 表参道（南青山段）",
@@ -263,14 +267,17 @@ PLACE_PLAN = {
         dict(day=7, type="餐饮（江户荞麦 / 米其林一星）",
              major_area="东京—两国 / 押上 / 晴空塔",
              sub_area="墨田区龟泽（两国本地午市）"),
+    "Edo-Tokyo Museum":
+        dict(day=7, type="博物馆", major_area="东京—两国 / 押上 / 晴空塔",
+             sub_area="横网 1-4-1"),
     "Kaminarimon Gate":
         dict(day=7, type="神社 / 寺院 / 商业街",
              major_area="东京—浅草",
              sub_area="浅草寺雷门（仲见世通起点）"),
     "Komiya Shoten Japanese Umbrella Shop":
-        dict(day=7, type="购物（和伞 / 老铺）",
-             major_area="东京—浅草",
-             sub_area="浅草寺周边和伞老铺"),
+        dict(day=4, type="购物（和伞 / 老铺）",
+             major_area="东京—日本桥",
+             sub_area="日本橋小伝馬町 14-2"),
     "SMOCO SMOKING&COFFEE BAR 浅草橋店":
         dict(day=7, type="餐饮（吸烟咖啡店）",
              major_area="东京—浅草",
@@ -322,6 +329,7 @@ TITLE_CN = {
     "M2ビル": "M2 大厦（隈研吾 / 现东京 Memolead 殡仪馆）",
     "Tsurugaoka Hachimangu": "鹤冈八幡宫",
     "Edosoba Hosokawa": "江户荞麦 细川（江戸蕎麦 ほそ川）",
+    "Edo-Tokyo Museum": "江户东京博物馆",
     "Tokyo National Museum": "东京国立博物馆",
     "Tokyu Plaza Harajuku “Harakado”": "东急广场原宿 Harakado",
     "Yaguchi Book Store": "矢口书店",
@@ -360,6 +368,7 @@ TITLE_CN = {
     "Akasaka Aonono Wagashi Main Store": "赤坂青野和菓子本店",
     "Akihabara": "秋叶原",
     "Roppongi": "六本木",
+    "21_21 Design Sight": "21_21 Design Sight",
     "Meiji Jingu Museum": "明治神宫博物馆",
     "Apple 銀座": "Apple 银座",
     "Tabio": "Tabio（袜子专门店）",
@@ -403,6 +412,7 @@ TITLE_JP = {
     "M2ビル": "M2 ビル",
     "Tsurugaoka Hachimangu": "鶴岡八幡宮",
     "Edosoba Hosokawa": "江戸蕎麦 ほそ川",
+    "Edo-Tokyo Museum": "江戸東京博物館",
     "Tokyo National Museum": "東京国立博物館",
     "Tokyu Plaza Harajuku “Harakado”": "東急プラザ原宿「ハラカド」",
     "Yaguchi Book Store": "矢口書店",
@@ -441,6 +451,7 @@ TITLE_JP = {
     "Akasaka Aonono Wagashi Main Store": "赤坂青野 和菓子本店",
     "Akihabara": "秋葉原",
     "Roppongi": "六本木",
+    "21_21 Design Sight": "21_21 デザインサイト",
     "Meiji Jingu Museum": "明治神宮ミュージアム",
     "Apple 銀座": "Apple 銀座",
     "Tabio": "タビオ",

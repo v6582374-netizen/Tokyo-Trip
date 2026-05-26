@@ -9,7 +9,7 @@
       "excluded_count": 10,
       "airports_count": 2,
       "lodgings_count": 1,
-      "included_count": 67,
+      "included_count": 69,
       "phantom_count": 1,
       "expected_per_design": {
         "csv_rows": 73,
@@ -22,8 +22,8 @@
         "day_1": 11,
         "day_2": 7,
         "day_3": 9,
-        "day_4": 8,
-        "day_5": 7,
+        "day_4": 9,
+        "day_5": 8,
         "day_6": 20,
         "day_7": 5
       },
@@ -766,9 +766,9 @@
       "csv_note": "来这里买伞",
       "url": "https://www.google.com/maps/place/Komiya+Shoten+Japanese+Umbrella+Shop/data=!4m2!3m1!1s0x6018894d427e6b5d:0x3c3b0398da90035e",
       "type": "购物（和伞 / 老铺）",
-      "major_area": "东京—浅草",
-      "sub_area": "浅草寺周边和伞老铺",
-      "assigned_day": 7
+      "major_area": "东京—日本桥",
+      "sub_area": "日本橋小伝馬町 14-2",
+      "assigned_day": 4
     },
     {
       "title_jp": "SMOCO SMOKING&COFFEE BAR 浅草橋店",
@@ -780,6 +780,30 @@
       "major_area": "东京—浅草",
       "sub_area": "浅草桥站附近",
       "assigned_day": 7
+    },
+    {
+      "title_jp": "江戸東京博物館",
+      "title_romaji": "Edo-Tokyo Museum",
+      "title_cn": "江户东京博物馆",
+      "csv_note": null,
+      "url": "https://www.edo-tokyo-museum.or.jp/",
+      "type": "博物馆",
+      "major_area": "东京—两国 / 押上 / 晴空塔",
+      "sub_area": "横網 1-4-1（COGO RYOGOKU 步行 8 分钟）",
+      "assigned_day": 7,
+      "source": "requirements §4（新增地点）"
+    },
+    {
+      "title_jp": "21_21 デザインサイト",
+      "title_romaji": "21_21 Design Sight",
+      "title_cn": "21_21 Design Sight",
+      "csv_note": null,
+      "url": "https://www.2121designsight.jp/",
+      "type": "美术馆 / 建筑（安藤忠雄，2007）",
+      "major_area": "东京—六本木",
+      "sub_area": "东京 Midtown Garden（钢板大屋顶 / 地下展厅）",
+      "assigned_day": 5,
+      "source": "requirements §6（新增地点）"
     }
   ],
   "by_day": {
@@ -1178,6 +1202,17 @@
         "major_area": "东京—新宿",
         "sub_area": "新宿御苑（千驮谷 / 大木户 / 新宿门）",
         "assigned_day": 4
+      },
+      {
+        "title_jp": "小宮商店",
+        "title_romaji": "Komiya Shoten Japanese Umbrella Shop",
+        "title_cn": "小宫商店（和伞老铺）",
+        "csv_note": "来这里买伞",
+        "url": "https://www.google.com/maps/place/Komiya+Shoten+Japanese+Umbrella+Shop/data=!4m2!3m1!1s0x6018894d427e6b5d:0x3c3b0398da90035e",
+        "type": "购物（和伞 / 老铺）",
+        "major_area": "东京—日本桥",
+        "sub_area": "日本橋小伝馬町 14-2",
+        "assigned_day": 4
       }
     ],
     "day_5": [
@@ -1257,6 +1292,18 @@
         "major_area": "东京—六本木",
         "sub_area": "六本木 Hills / Midtown 之间",
         "assigned_day": 5
+      },
+      {
+        "title_jp": "21_21 デザインサイト",
+        "title_romaji": "21_21 Design Sight",
+        "title_cn": "21_21 Design Sight",
+        "csv_note": null,
+        "url": "https://www.2121designsight.jp/",
+        "type": "美术馆 / 建筑（安藤忠雄，2007）",
+        "major_area": "东京—六本木",
+        "sub_area": "东京 Midtown Garden（钢板大屋顶 / 地下展厅）",
+        "assigned_day": 5,
+        "source": "requirements §6（新增地点）"
       }
     ],
     "day_6": [
@@ -1517,17 +1564,6 @@
         "assigned_day": 7
       },
       {
-        "title_jp": "小宮商店",
-        "title_romaji": "Komiya Shoten Japanese Umbrella Shop",
-        "title_cn": "小宫商店（和伞老铺）",
-        "csv_note": "来这里买伞",
-        "url": "https://www.google.com/maps/place/Komiya+Shoten+Japanese+Umbrella+Shop/data=!4m2!3m1!1s0x6018894d427e6b5d:0x3c3b0398da90035e",
-        "type": "购物（和伞 / 老铺）",
-        "major_area": "东京—浅草",
-        "sub_area": "浅草寺周边和伞老铺",
-        "assigned_day": 7
-      },
-      {
         "title_jp": "東京スカイツリー",
         "title_romaji": "Tokyo Skytree",
         "title_cn": "东京晴空塔",
@@ -1537,6 +1573,18 @@
         "major_area": "东京—两国 / 押上 / 晴空塔",
         "sub_area": "押上 SOLAMACHI 塔顶展望台",
         "assigned_day": 7
+      },
+      {
+        "title_jp": "江戸東京博物館",
+        "title_romaji": "Edo-Tokyo Museum",
+        "title_cn": "江户东京博物馆",
+        "csv_note": null,
+        "url": "https://www.edo-tokyo-museum.or.jp/",
+        "type": "博物馆",
+        "major_area": "东京—两国 / 押上 / 晴空塔",
+        "sub_area": "横網 1-4-1（COGO RYOGOKU 步行 8 分钟）",
+        "assigned_day": 7,
+        "source": "requirements §4（新增地点）"
       }
     ],
     "unassigned": []

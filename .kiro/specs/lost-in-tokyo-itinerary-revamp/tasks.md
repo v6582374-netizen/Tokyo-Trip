@@ -296,72 +296,72 @@
   - conftest.py 含 places / tst_segments / day_files / intro_files 四组 session fixtures
   - _Requirements: 11.5_
 
-- [~] 54. (任务组 I) 创建 tests/strategies/__init__.py + csv_strategy.py
+- [x] 54. (任务组 I) 创建 tests/strategies/__init__.py + csv_strategy.py
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/strategies/__init__.py` + `csv_strategy.py`（新建）
   - csv_rows_strategy() 生成 RawRow 列表
   - _Requirements: 11.5_
 
-- [~] 55. (任务组 I) 创建 tests/strategies/place_strategy.py
+- [x] 55. (任务组 I) 创建 tests/strategies/place_strategy.py
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/strategies/place_strategy.py`（新建）
   - place_strategy() 生成 Place 实例
   - _Requirements: 11.5_
 
-- [~] 56. (任务组 I) 创建 tests/strategies/tla_strategy.py
+- [x] 56. (任务组 I) 创建 tests/strategies/tla_strategy.py
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/strategies/tla_strategy.py`（新建）
   - tla_strategy() 生成 Time_Locked_Activity
   - _Requirements: 11.5_
 
-- [~] 57. (任务组 I) 创建 tests/strategies/tst_strategy.py
+- [x] 57. (任务组 I) 创建 tests/strategies/tst_strategy.py
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/strategies/tst_strategy.py`（新建）
   - tst_segment_strategy() 生成 tst-segments.json segment
   - _Requirements: 11.5_
 
-- [~] 58. (任务组 I) 创建 tests/strategies/scenario_strategy.py
+- [x] 58. (任务组 I) 创建 tests/strategies/scenario_strategy.py
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/strategies/scenario_strategy.py`（新建）
   - scenario_strategy() 生成 Cost_Scenario
   - _Requirements: 11.5_
 
-- [~] 59. (任务组 I) [PBT] 编写 test_p1_coverage.py（覆盖完整性）
+- [x] 59. (任务组 I) [PBT] 编写 test_p1_coverage.py（覆盖完整性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p1_coverage.py`（新建）
   - 验证 included titles ⊆ day subtitles + excluded titles ∩ day subtitles == ∅
   - _Requirements: 11.1 P1, 11.3_
 
-- [~] 60. (任务组 I) [PBT] 编写 test_p2_monotonic.py（序列单调性）
+- [x] 60. (任务组 I) [PBT] 编写 test_p2_monotonic.py（序列单调性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p2_monotonic.py`（新建）
   - 验证每日 Major_Area 序列无重复（除显式标注环线外）
   - _Requirements: 11.2 P2, 11.3_
 
-- [~] 61. (任务组 I) [PBT] 编写 test_p3_anchors.py（硬锚点性）
+- [x] 61. (任务组 I) [PBT] 编写 test_p3_anchors.py（硬锚点性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p3_anchors.py`（新建）
   - 验证 9 项 TLA 在对应 day-N.md 中存在关键文本
   - _Requirements: 11.2 P3, 11.3_
 
-- [~] 62. (任务组 I) [PBT] 编写 test_p4_fields.py（字段完整性）
+- [x] 62. (任务组 I) [PBT] 编写 test_p4_fields.py（字段完整性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p4_fields.py`（新建）
   - 验证所有 intros/*.md 含 12 个必含字段 + 类别专属字段
   - _Requirements: 11.2 P4, 11.3_
 
-- [~] 63. (任务组 I) [PBT] 编写 test_p5_tail.py（收尾性）
+- [x] 63. (任务组 I) [PBT] 编写 test_p5_tail.py（收尾性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p5_tail.py`（新建）
   - 验证 day-3 ~ day-6 文末含「COGO RYOGOKU」；day-7 含「10:00 退房」
   - _Requirements: 11.2 P5, 11.3_
 
-- [~] 64. (任务组 I) [PBT] 编写 test_p6_time_windows.py（营业时间窗）
+- [x] 64. (任务组 I) [PBT] 编写 test_p6_time_windows.py（营业时间窗）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p6_time_windows.py`（新建）
   - 验证所有 TLA 时段落在对应 Place_Profile 官方营业时间窗内
   - _Requirements: 11.2 P6, 11.3_
 
-- [~] 65. (任务组 I) [PBT] 编写 test_p7_tst_consistency.py（TST 一致性）
+- [x] 65. (任务组 I) [PBT] 编写 test_p7_tst_consistency.py（TST 一致性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p7_tst_consistency.py`（新建）
   - 验证 tst_covered: ✅ 的段 in_tst_window == true + fare_jpy == 0 + day ∈ {3,4,5,6}
   - _Requirements: 11.2 P7, 11.3_
 
-- [~] 66. (任务组 I) [PBT] 编写 test_p8_scenarios.py（Cost_Scenario 合计）
+- [x] 66. (任务组 I) [PBT] 编写 test_p8_scenarios.py（Cost_Scenario 合计）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_p8_scenarios.py`（新建）
   - 验证每个 Cost_Scenario 的 day 合计 = 当日计费段 fare_jpy 之和，容差 ≤ ¥50
   - _Requirements: 11.2 P8, 11.3_
 
-- [~] 67. (任务组 I) [Lint] 编写 test_extras.py（文件存在性 + 内部链接有效性）
+- [x] 67. (任务组 I) [Lint] 编写 test_extras.py（文件存在性 + 内部链接有效性）
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/test_extras.py`（新建）
   - 验证所有 included 地点对应的 intros/*.md 文件存在
   - 验证 day-N.md 中所有内部链接指向存在的文件
@@ -369,24 +369,24 @@
 
 ### 任务组 J：HonKit 构建 + Lint 验证（design §13 / requirements §10）
 
-- [~] 68. (任务组 J) [Lint] npm run build 构建验证
+- [x] 68. (任务组 J) [Lint] npm run build 构建验证
   - 涉及文件：`/package.json`、`/_book/`（输出）
   - 执行 `npm run build`，检查 stderr 无 broken-link / TOC / 标题层级警告
   - 确认 `_book/` 正常生成
   - _Requirements: 10.1, 10.9_
 
-- [~] 69. (任务组 J) [Lint] grep 旧名「Tokyo Trip 2026」确认仅引用上下文残留
+- [x] 69. (任务组 J) [Lint] grep 旧名「Tokyo Trip 2026」确认仅引用上下文残留
   - 涉及文件：`/` 全站
   - 执行 `grep -rn "Tokyo Trip 2026" . --include="*.md" --include="*.json"`
   - 确认仅在引用上下文（README 修订流程建议代码块 / 索引页历史记录）中出现，非头部标题 / 菜单项
   - _Requirements: 1.6_
 
-- [~] 70. (任务组 J) [Lint] 检查 _book/index.html <title> 反映新标题
+- [x] 70. (任务组 J) [Lint] 检查 _book/index.html <title> 反映新标题
   - 涉及文件：`/_book/index.html`
   - 确认 `<title>` 标签值含「锅巴的奇妙冒险之迷失东京」
   - _Requirements: 1.7_
 
-- [~] 71. (任务组 J) [PBT] 运行 pytest 验证 8 条 PBT 全部通过
+- [x] 71. (任务组 J) [PBT] 运行 pytest 验证 8 条 PBT 全部通过
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/`
   - 执行 `pytest --hypothesis-show-statistics -v`
   - 确认 P1 ~ P8 + extras 全部 PASSED（max_examples=100）

@@ -8,6 +8,7 @@
     "serve": "honkit serve . --port 4000"
   },
   "devDependencies": {
+    "@honkit/honkit-plugin-fontsettings": "^6.2.1",
     "honkit": "^6.1.4"
   }
 }

@@ -257,32 +257,32 @@
   - 场景 A：¥2,200；场景 B：¥2,200（镰仓日不在 TST 期内）
   - _Requirements: 9.5, 10.4_
 
-- [~] 47. (任务组 H) day-3 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 47. (任务组 H) day-3 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-3-2026-06-05.md`
   - 场景 A：¥810；场景 B：¥150（TST ✅ 覆盖大部分段，仅 JR ¥150 不覆盖）
   - _Requirements: 9.5, 10.4_
 
-- [~] 48. (任务组 H) day-4 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 48. (任务组 H) day-4 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-4-2026-06-06.md`
   - 场景 A：¥1,770（含神保町 ↔ 小伝马町 ¥360）；场景 B：¥510（仅小田急段不覆盖）
   - _Requirements: 9.5, 10.4_
 
-- [~] 49. (任务组 H) day-5 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 49. (任务组 H) day-5 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-5-2026-06-07.md`
   - 场景 A：¥1,260；场景 B：¥0（TST ✅ 全段覆盖）
   - _Requirements: 9.5, 9.5a, 10.4_
 
-- [~] 50. (任务组 H) day-6 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 50. (任务组 H) day-6 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-6-2026-06-08.md`
   - 场景 A：¥1,830；场景 B：¥510（仅 JR + 东急段不覆盖）
   - _Requirements: 9.5, 10.4_
 
-- [~] 51. (任务组 H) day-7 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
+- [x] 51. (任务组 H) day-7 文档尾「当日交通费推算」表更新为场景 A / 场景 B 双行
   - 涉及文件：`/day-7-2026-06-09.md`
   - 场景 A NRT：¥2,940 / HND：¥1,180；场景 B：与 A 相同（TST 已失效）
   - _Requirements: 9.5, 10.4_
 
-- [~] 52. (任务组 H) tst-segments.json 重新核算 cumulative_covered_rides
+- [x] 52. (任务组 H) tst-segments.json 重新核算 cumulative_covered_rides
   - 涉及文件：`/tst-segments.json`
   - 确认 cumulative_covered_rides = 21（Day 3: 3 + Day 4: 7 + Day 5: 6 + Day 6: 5 = 21）
   - 与 design §11.7 一致
@@ -290,7 +290,7 @@
 
 ### 任务组 I：PBT 编写（design §16 / requirements §11）
 
-- [~] 53. (任务组 I) 创建 tests/ 目录 + pytest.ini + conftest.py
+- [x] 53. (任务组 I) 创建 tests/ 目录 + pytest.ini + conftest.py
   - 涉及文件：`/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/pytest.ini`（新建）+ `/.kiro/specs/lost-in-tokyo-itinerary-revamp/tests/conftest.py`（新建）
   - pytest.ini 设置 max_examples=100、deadline=None、--hypothesis-show-statistics
   - conftest.py 含 places / tst_segments / day_files / intro_files 四组 session fixtures

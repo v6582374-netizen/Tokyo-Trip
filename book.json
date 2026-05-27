@@ -14,5 +14,8 @@
   "structure": {
     "readme": "README.md",
     "summary": "SUMMARY.md"
+  },
+  "styles": {
+    "website": "styles/website.css"
   }
 }

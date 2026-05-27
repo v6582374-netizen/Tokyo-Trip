@@ -157,14 +157,9 @@
 
 * [雷门](intros/intro-kaminarimon-gate.md)
 * [並木藪蕎麦](intros/intro-namiki-yabusoba.md)
-* [SMOCO Smoking Coffee Bar 浅草桥](intros/intro-smoco-smoking-coffee-bar-asakusabashi.md)
 
 ### 东京—两国 / 押上 / 晴空塔（Ryōgoku / Oshiage / Skytree）
 
 * [江户东京博物馆](intros/intro-edo-tokyo-museum.md)
 * [江戸蕎麦 ほそ川](intros/intro-edosoba-hosokawa.md)
 * [东京晴空塔](intros/intro-tokyo-skytree.md)
-
-### 东京—世田谷砧（外延）
-
-* [M2 大楼](intros/intro-m2-building.md)

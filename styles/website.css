@@ -1,0 +1,4 @@
+/* Hide HonKit internal script overflow that may render as visible text */
+.page-inner .page-wrapper {
+  overflow: hidden;
+}

@@ -1,31 +1,12 @@
 /*
- * Fix: Prevent HonKit internal JSON config from being visible.
+ * Custom styles for the GitBook site.
  *
- * HonKit injects a <script> tag with gitbook.page.hasChanged({...}) at the
- * bottom of every page. Normally invisible, but if JavaScript fails to load
- * or is blocked, some browsers/readers may render the script content as text.
+ * Note: HonKit injects a <script> tag at the bottom of every page containing
+ * gitbook.page.hasChanged({...}) JSON. This is normal HTML — script tags are
+ * invisible by default. If JSON appears as visible text, it means the page's
+ * JavaScript is failing to load (e.g., gitbook.js 404, CSP block, or plugin
+ * conflict).
  *
- * This CSS ensures the page content area has a defined boundary so that
- * even if the script tag somehow renders, it's clipped from view.
+ * The real fix lives in book.json (avoiding duplicate plugin loads), not CSS.
+ * CSS-based overflow hiding breaks page scrolling, so we don't use it here.
  */
-
-/* The .page-inner contains the actual content + the trailing script tag.
-   By setting overflow:hidden on its parent, any text that leaks from
-   a failed script execution is clipped. */
-.book-body .body-inner {
-    overflow: hidden;
-}
-
-/* Additional safety: the section.normal is the last content element before
-   the script tag. Ensure nothing after it is visible. */
-.page-inner section.normal {
-    overflow: hidden;
-}
-
-/* For noscript environments: hide any visible script-like content */
-.page-inner > script {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    overflow: hidden !important;
-}

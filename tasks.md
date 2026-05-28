@@ -115,12 +115,12 @@
     - 文档头开篇明确 TST 72 小时券激活地点（地铁站窗口或便利店）+ 6/5 上午第一次乘车前激活
     - _Requirements: §2.2, §5.1, §5.2, §5.6, §10.1, §10.6, §14.2_
 
-  - [x] 4.2 写 Day 3 主体 — 上野 / 本乡 / 东大段
+  - [x] 4.2 写 Day 3 主体 — 上野段
     - 子区域导览段
-    - Place_Profile：`The University of Tokyo`（东京大学）
     - Place_Profile：`Ueno Park`
     - Place_Profile：`Tokyo National Museum`
     - Place_Profile：`Kyū-Iwasaki-tei Gardens`（旧岩崎邸庭园）
+    - **2026-05-29 修订**：`The University of Tokyo`（东京大学本乡校区）已从 Day 3 移除（优先级低 + 与博物馆段时间冲突）；子区域 1 由"上野 / 本乡 / 东大"缩减为"上野"。
     - _Requirements: §5.3, §13.1, §13.3, §13.6_
 
   - [x] 4.3 写 Day 3 主体 — 秋叶原段

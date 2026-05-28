@@ -9,7 +9,7 @@
       "excluded_count": 10,
       "airports_count": 2,
       "lodgings_count": 1,
-      "included_count": 69,
+      "included_count": 68,
       "phantom_count": 1,
       "expected_per_design": {
         "csv_rows": 73,
@@ -21,7 +21,7 @@
       "by_day_counts": {
         "day_1": 11,
         "day_2": 7,
-        "day_3": 9,
+        "day_3": 8,
         "day_4": 9,
         "day_5": 8,
         "day_6": 20,
@@ -34,7 +34,8 @@
         "Kabukiza Theatre 是 requirements §7.1 强制入选的 Place_Profile，但不在 CSV 中——已作为 phantom 添加，csv_note 为 null。",
         "TabioMEN / Tabio / RAGTAG / Euro Live 在 requirements §6.1 中列出但 design 各日总数未显式纳入；本 JSON 按地理就近分配到 Day 6（涩谷段）。Euro Live 展期已结束（6/2–4），按 §6.6 文档中标注「展期已结束 / 外观打卡」。",
         "WITH HARAJUKU HALL 由 Day 6 重新分配到 Day 4：用户在 6/6（Day 4）15:10 已购票观看 SSFF & ASIA 2025 短片电影节竞赛单元放映（地点 WITH HARAJUKU HALL 3F），此为用户后期补充的硬时间锚点。Day 4 由 7 个保留地点增至 8 个、Day 6 由 21 个减至 20 个、总数 60 不变；Day 6 文档对应 Place_Profile 已替换为指向 Day 4 的交叉引用 callout，避免在 60 个保留 Title 各恰好出现一次的 P1 lint 规则下重复计数。",
-        "用户 2026-05-24 修订：Day 1 新增 3 个地点（横滨 HAMMERHEAD / 横滨中华街 / OMO5 横滨马车道 46F 展望）+ Day 2 新增 1 个地点（建长寺）。Sky Garden（横滨地标大厦 69F 展望）2026 年起暂时关闭至 2028 年大规模翻新——地标塔 Place_Profile 保留但展望段改为「暂闭 / 改 OMO5 替代」；横滨中华街由原 山下公园「周边联动」升级为独立 Place_Profile；OMO5 横滨马车道 by 星野集团 2026-01-15 开业（行程 6/3 时已开业 4.5 个月）、46F「OMO Base」环状展望走廊 + THE YOKOHAMA BAY 餐厅对非住客开放；建长寺为镰仓五山第一位（1253 年北条时赖创建），与圆觉寺并称北镰仓双壁，地理顺路；included_count 由 63 增至 67、Day 1 由 8 增至 11、Day 2 由 6 增至 7。"
+        "用户 2026-05-24 修订：Day 1 新增 3 个地点（横滨 HAMMERHEAD / 横滨中华街 / OMO5 横滨马车道 46F 展望）+ Day 2 新增 1 个地点（建长寺）。Sky Garden（横滨地标大厦 69F 展望）2026 年起暂时关闭至 2028 年大规模翻新——地标塔 Place_Profile 保留但展望段改为「暂闭 / 改 OMO5 替代」；横滨中华街由原 山下公园「周边联动」升级为独立 Place_Profile；OMO5 横滨马车道 by 星野集团 2026-01-15 开业（行程 6/3 时已开业 4.5 个月）、46F「OMO Base」环状展望走廊 + THE YOKOHAMA BAY 餐厅对非住客开放；建长寺为镰仓五山第一位（1253 年北条时赖创建），与圆觉寺并称北镰仓双壁，地理顺路；included_count 由 63 增至 67、Day 1 由 8 增至 11、Day 2 由 6 增至 7。",
+        "用户 2026-05-29 修订：The University of Tokyo（东京大学本乡校区）整段从 Day 3 删除——优先级低 + 与东京国立博物馆同区域时段冲突（博物馆 4 馆需 ≥ 3 小时、留出余量后无法再插入东大 60 分钟环游）；Day 3 子区域 1 由「上野 / 本乡 / 东大」缩减为「上野」，包含 2 个保留地点（上野公园 + 东京国立博物馆），included_count 由 69 → 68、day_3 由 9 → 8。"
       ]
     }
   },
@@ -250,17 +251,6 @@
       "type": "庭园 / 历史建筑",
       "major_area": "东京—上野 / 本乡 / 东大",
       "sub_area": "池之端（旧岩崎邸庭园）",
-      "assigned_day": 3
-    },
-    {
-      "title_jp": "東京大学",
-      "title_romaji": "The University of Tokyo",
-      "title_cn": "东京大学（本乡校区）",
-      "csv_note": "东京da xue",
-      "url": "https://www.google.com/maps/place/The+University+of+Tokyo/data=!4m2!3m1!1s0x60188c2ffa206ea3:0x30e407498313ba95",
-      "type": "校园 / 建筑",
-      "major_area": "东京—上野 / 本乡 / 东大",
-      "sub_area": "本乡校区赤门—安田讲堂",
       "assigned_day": 3
     },
     {
@@ -1056,17 +1046,6 @@
         "type": "公园",
         "major_area": "东京—上野 / 本乡 / 东大",
         "sub_area": "上野恩赐公园",
-        "assigned_day": 3
-      },
-      {
-        "title_jp": "東京大学",
-        "title_romaji": "The University of Tokyo",
-        "title_cn": "东京大学（本乡校区）",
-        "csv_note": "东京da xue",
-        "url": "https://www.google.com/maps/place/The+University+of+Tokyo/data=!4m2!3m1!1s0x60188c2ffa206ea3:0x30e407498313ba95",
-        "type": "校园 / 建筑",
-        "major_area": "东京—上野 / 本乡 / 东大",
-        "sub_area": "本乡校区赤门—安田讲堂",
         "assigned_day": 3
       },
       {

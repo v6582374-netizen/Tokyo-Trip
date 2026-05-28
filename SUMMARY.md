@@ -66,11 +66,10 @@
 * [七里滨海岸](intros/intro-shichirigahama-beach.md)
 * [镰仓高校前站](intros/intro-kamakurako-mae-station.md)
 
-### 东京—上野 / 本乡 / 东大（Ueno / Hongō）
+### 东京—上野（Ueno）
 
 * [上野公园](intros/intro-ueno-park.md)
 * [东京国立博物馆](intros/intro-tokyo-national-museum.md)
-* [东京大学](intros/intro-the-university-of-tokyo.md)
 
 ### 东京—秋叶原（Akihabara）
 

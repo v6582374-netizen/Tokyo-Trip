@@ -93,7 +93,7 @@
 
 1. THE 行程规划器 SHALL 将 `Tokyo Dome` 分配到第 3 日，并在地点档案中标注硬约束：「6 月 5 日 16:00 开场、18:00 比赛开始，巨人 vs 罗德」。
 2. WHEN 第 3 日下午 ≥ 16:30 时，THE 行程规划器 SHALL 要求用户已抵达水道桥 / 后乐园站附近，地点档案中应明确入场口、检票流程与禁带物品。
-3. THE 行程规划器 SHALL 将以下保留地点分配到第 3 日，并按"自西向东最终落点东京巨蛋"的方向聚合：建议安排 `The University of Tokyo`、`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`、`Akihabara`、`Akihabara Electric Town`、`Mandarake Complex`、`Pop Life Department M's` 中的若干个；最终是否全部纳入第 3 日由规划器在文档中说明取舍理由，但 `Tokyo Dome` 必入。
+3. THE 行程规划器 SHALL 将以下保留地点分配到第 3 日，并按"自西向东最终落点东京巨蛋"的方向聚合：建议安排 `Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`、`Akihabara`、`Akihabara Electric Town`、`Mandarake Complex`、`Pop Life Department M's` 中的若干个；最终是否全部纳入第 3 日由规划器在文档中说明取舍理由，但 `Tokyo Dome` 必入。
 4. IF 第 3 日下午地点过多导致 16:30 前无法抵达水道桥，THEN THE 行程规划器 SHALL 把超载的地点改派到第 4–7 日中地理上相容的某一日。
 5. WHEN 第 3 日结束时，THE 行程规划器 SHALL 安排用户从水道桥 / 后乐园 / 饭田桥 经都营大江户线 / 都营浅草线返回 COGO RYOGOKU（两国）。
 6. WHERE 用户尚未办理东京地铁卡（Tokyo_Subway_Ticket），THE 行程规划器 SHALL 建议用户在第 3 日上午激活东京地铁卡 72 小时券（覆盖 6/5–6/8），并在第 3 日文档开头明确激活地点（建议在地铁站窗口或便利店购入）。
@@ -106,7 +106,7 @@
 
 1. THE 行程规划器 SHALL 将以下保留地点全部、且仅一次地分配到第 4–7 日中的某一天：
    `S. Watanabe woodcut prints`、`Nezu Museum`、`WITH HARAJUKU HALL`、`SMOCO SMOKING&COFFEE BAR 浅草橋店`、`Kaminarimon Gate`、`LINE CUBE SHIBUYA`、`Mandarake Nakano`、`Kabukicho`、`Mandarake Shibuya`、`M2ビル`、`Edosoba Hosokawa`、`Tokyu Plaza Harajuku "Harakado"`、`Yaguchi Book Store`、`Tokyo Tonkotsu Ramen Bankara Shinjuku Kabukicho`、`TabioMEN`、`Akasaka-Mitsuke Station`、`Euro Live`、`Tokyo Station`、`Marunouchi Tokyo Station Square`、`Nihonbashi Takashimaya Shopping Center`、`Namiki Yabusoba`、`LIFORK Harajuku`、`Hie Shrine`、`Shinjuku Golden-Gai`、`Komiya Shoten Japanese Umbrella Shop`、`Tokyo Skytree`、`Kabukiza Theatre`、`Tsutaya Books Daikanyama`、`Kagurazaka`、`d47 Museum`、`Shibuya Sky`、`Waseda University`、`Shinjuku Gyoen National Garden`、`RAGTAG`、`Akasaka Aonono Wagashi Main Store`、`Roppongi`、`Meiji Jingu`、`Meiji Jingu Museum`、`Apple 銀座`、`Tabio`。
-   （第 3 日已经分配走的 `Akihabara`、`Akihabara Electric Town`、`Mandarake Complex`、`Pop Life Department M's`、`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`、`The University of Tokyo`、`Tokyo Dome` 不重复出现。）
+   （第 3 日已经分配走的 `Akihabara`、`Akihabara Electric Town`、`Mandarake Complex`、`Pop Life Department M's`、`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`、`Tokyo Dome` 不重复出现。）
 2. THE 行程规划器 SHALL 为第 4–7 日各设定一个主题，且四日之间不得共享主题；推荐主题集合为：「新宿—中野（亚文化 + 御宅 + 黄金街夜游）」、「涩谷—原宿—代官山（建筑 + 时装 + 美术馆）」、「丸之内—银座—日本桥（江户老铺 + 文房 + 百货）」、「赤坂—六本木—神乐坂—早稻田（隈研吾建筑 + 文豪江户）」中四选四。
 3. WHEN 同一主题的地点跨多个区域时，THE 行程规划器 SHALL 在该日地点序列中按"环线 / 单向"顺序排布（如新宿 → 中野不返回新宿、涩谷 → 原宿 → 代官山不返回涩谷），不得出现跨区域反复横跳。
 4. WHERE 第 7 日（6/9）当日 10:00 必须从 COGO RYOGOKU 退房，THE 行程规划器 SHALL 把第 7 日设为「轻量日」：当日地点数量 ≤ 第 4–6 日单日地点数量的中位数；并在文档中预留行李寄存与机场前往时间（若用户当日离日）。

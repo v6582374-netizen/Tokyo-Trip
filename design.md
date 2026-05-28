@@ -303,13 +303,13 @@ Day 2 镰仓 6 地点（已在 §4.2 显式列出）：`Engaku-ji`、`Meigetsu-i
 
 剩余 46 个东京地点要分配到 Day 3–7。先按 major_area 聚类，再用主题日把相邻区域绑成一天。
 
-**Day 3 主题：上野 / 本乡 / 秋叶原 / 水道桥（江户文教 + 御宅 + 棒球收尾）**
+**Day 3 主题：上野 / 秋叶原 / 水道桥（江户文教 + 御宅 + 棒球收尾）**
 
-- 上野 / 本乡 / 东大：`The University of Tokyo`、`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`
+- 上野：`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`
 - 秋叶原：`Akihabara`、`Akihabara Electric Town`、`Mandarake Complex`、`Pop Life Department M's`
 - 水道桥 / 后乐园：`Tokyo Dome`（锚点）
 
-合计 9 个地点。傍晚 16:30 之前从秋叶原乘 JR 总武线 / 地铁丸之内线接东京 metro 三田线汇入水道桥，地理上自然落点 Tokyo Dome（参见 requirements §5.3、§5.5）。
+合计 8 个地点。傍晚 16:30 之前从秋叶原乘 JR 总武线 / 地铁丸之内线接东京 metro 三田线汇入水道桥，地理上自然落点 Tokyo Dome（参见 requirements §5.3、§5.5）。
 
 **Day 4 主题：新宿 / 中野（亚文化 + 御宅 + 黄金街夜游）**
 
@@ -421,9 +421,9 @@ included_count = 73 (CSV) - 1 (空行) - 10 (排除) - 2 (机场) - 1 (COGO RYOG
 
 ### Day 3（6/5 东京 / 棒球）
 
-序列：**东京—上野 / 本乡 / 东大 → 东京—秋叶原 → 东京—水道桥 / 后乐园**
+序列：**东京—上野 → 东京—秋叶原 → 东京—水道桥 / 后乐园**
 
-- 上野 / 本乡：`The University of Tokyo`、`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`
+- 上野：`Ueno Park`、`Tokyo National Museum`、`Kyū-Iwasaki-tei Gardens`
 - 秋叶原：`Akihabara`、`Akihabara Electric Town`、`Mandarake Complex`、`Pop Life Department M's`
 - 水道桥 / 后乐园：`Tokyo Dome`
 

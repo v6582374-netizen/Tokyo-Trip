@@ -103,10 +103,7 @@ PLACE_PLAN = {
         dict(day=2, type="交通节点 / 观景打卡", major_area="江之电沿线",
              sub_area="镰仓高校前道口"),
 
-    # ---------------- Day 3 — 上野 / 秋叶原 / 水道桥（9）----------------
-    "The University of Tokyo":
-        dict(day=3, type="校园 / 建筑", major_area="东京—上野 / 本乡 / 东大",
-             sub_area="本乡校区赤门—安田讲堂"),
+    # ---------------- Day 3 — 上野 / 秋叶原 / 水道桥（8）----------------
     "Ueno Park":
         dict(day=3, type="公园", major_area="东京—上野 / 本乡 / 东大",
              sub_area="上野恩赐公园"),
@@ -340,7 +337,6 @@ TITLE_CN = {
     "Shin-Yokohama Ramen Museum": "新横滨拉面博物馆",
     "Meiji Jingu": "明治神宫",
     "Akasaka-Mitsuke Station": "赤坂见附站",
-    "The University of Tokyo": "东京大学（本乡校区）",
     "Euro Live": "Euro Live（涩谷剧场）",
     "Tokyo Station": "东京站（丸之内站舍）",
     "Marunouchi Tokyo Station Square": "丸之内东京站广场",
@@ -423,7 +419,6 @@ TITLE_JP = {
     "Shin-Yokohama Ramen Museum": "新横浜ラーメン博物館",
     "Meiji Jingu": "明治神宮",
     "Akasaka-Mitsuke Station": "赤坂見附駅",
-    "The University of Tokyo": "東京大学",
     "Euro Live": "ユーロライブ",
     "Tokyo Station": "東京駅",
     "Marunouchi Tokyo Station Square": "丸の内東京駅広場",

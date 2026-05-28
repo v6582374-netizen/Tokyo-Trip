@@ -33,17 +33,17 @@
 
 ## 子区域 3：涩谷（Shibuya，下午段）
 
-> **段内导览**：本子区域是 Day 6 上午段的收束节点（13:30–17:00 段，3.5 小时），从代官山东急东横线一站返涩谷站，下午集中处理 8 个保留地点：**Shibuya Sky**（Scramble Square 屋顶展望，预约 14:00–16:00 段）+ **Mandarake Shibuya**（涩谷 BEAM 旁地下店，13:30–14:30 短停）+ **LINE CUBE SHIBUYA**（涩谷区立公会堂，电影节颁奖礼场，外观打卡）+ **d47 Museum**（涩谷 Hikarie 8F，设计博物馆）+ **4 个补丁外观点**（TabioMEN / Tabio / RAGTAG / Euro Live）。其中 **Euro Live 展期 6/2–4 已结束**（按 §6.6 处理，仅外观打卡），4 个补丁点（places.json 提示这 4 个未在 design 显式安排，按地理纳入 Day 6 上午段）以"涩谷 / 表参道线一边走一边外观打卡"的方式串入。
->
-> **推荐顺序**：
->
-> 1. **13:30 代官山 → 涩谷**（东急东横线一站、¥140、TST ❌）出涩谷站 B1 出口；
-> 2. **13:35–14:00 Mandarake Shibuya**（涩谷 BEAM 旁地下店，13:35 入店速逛 25 分钟）；
-> 3. **14:00–16:00 Shibuya Sky**（涩谷 Scramble Square，屋顶展望预约时段；本次预约 14:00 入场，含上行 + 屋顶 + 下行约 90–120 分钟）；
-> 4. **16:00–16:30 d47 Museum**（涩谷 Hikarie 8F，从 Scramble Square 步行 5 分钟到 Hikarie B3 直通通道 + 8F 上）；
-> 5. **16:30–17:00 LINE CUBE SHIBUYA + 4 补丁点（TabioMEN / Tabio / RAGTAG / Euro Live）外观打卡 + 末班购物**：从 Hikarie 出来沿涩谷站东口 → 文化村通 → 道玄坂方向，依次经过 LINE CUBE SHIBUYA（公园通顶端）+ Euro Live（道玄坂中段，已结束仅外观）+ RAGTAG（道玄坂 / 公园通中古设计师品牌）+ Tabio / TabioMEN（涩谷 / 表参道 Tabio 主线，按时间机动）；
-> 6. **17:00 涩谷 → 银座**（东京 Metro 半蔵门线 → 表参道换银座线，约 8 分钟、TST ✅；或东京 Metro 副都心线 → 涩谷一线到东银座间的转线方式按 7.3 任务下午段为准）。
->
-> **本段时段窗口**：13:30 抵达涩谷 → 17:00 离开涩谷转银座，合计 3.5 小时；其中 Shibuya Sky 屋顶展望占用 2 小时为最大时段，其余 6 个点各 10–25 分钟外观 / 短停。
->
-> **本段 TST 状态**：从代官山到涩谷的东急东横线段（¥140、TST ❌）是非 TST 必费段；从涩谷到银座（半蔵门线 + 银座线）走 Tokyo Metro，TST ✅ 全段覆盖。
+**段内导览**：本子区域是 Day 6 上午段的收束节点（13:30–17:00 段，3.5 小时），从代官山东急东横线一站返涩谷站，下午集中处理 8 个保留地点：**Shibuya Sky**（Scramble Square 屋顶展望，预约 14:00–16:00 段）+ **Mandarake Shibuya**（涩谷 BEAM 旁地下店，13:30–14:30 短停）+ **LINE CUBE SHIBUYA**（涩谷区立公会堂，电影节颁奖礼场，外观打卡）+ **d47 Museum**（涩谷 Hikarie 8F，设计博物馆）+ **4 个补丁外观点**（TabioMEN / Tabio / RAGTAG / Euro Live）。其中 **Euro Live 展期 6/2–4 已结束**（按 §6.6 处理，仅外观打卡），4 个补丁点（places.json 提示这 4 个未在 design 显式安排，按地理纳入 Day 6 上午段）以"涩谷 / 表参道线一边走一边外观打卡"的方式串入。
+
+**推荐顺序**：
+
+1. **13:30 代官山 → 涩谷**（东急东横线一站、¥140、TST ❌）出涩谷站 B1 出口；
+2. **13:35–14:00 Mandarake Shibuya**（涩谷 BEAM 旁地下店，13:35 入店速逛 25 分钟）；
+3. **14:00–16:00 Shibuya Sky**（涩谷 Scramble Square，屋顶展望预约时段；本次预约 14:00 入场，含上行 + 屋顶 + 下行约 90–120 分钟）；
+4. **16:00–16:30 d47 Museum**（涩谷 Hikarie 8F，从 Scramble Square 步行 5 分钟到 Hikarie B3 直通通道 + 8F 上）；
+5. **16:30–17:00 LINE CUBE SHIBUYA + 4 补丁点（TabioMEN / Tabio / RAGTAG / Euro Live）外观打卡 + 末班购物**：从 Hikarie 出来沿涩谷站东口 → 文化村通 → 道玄坂方向，依次经过 LINE CUBE SHIBUYA（公园通顶端）+ Euro Live（道玄坂中段，已结束仅外观）+ RAGTAG（道玄坂 / 公园通中古设计师品牌）+ Tabio / TabioMEN（涩谷 / 表参道 Tabio 主线，按时间机动）；
+6. **17:00 涩谷 → 银座**（东京 Metro 半蔵门线 → 表参道换银座线，约 8 分钟、TST ✅；或东京 Metro 副都心线 → 涩谷一线到东银座间的转线方式按 7.3 任务下午段为准）。
+
+**本段时段窗口**：13:30 抵达涩谷 → 17:00 离开涩谷转银座，合计 3.5 小时；其中 Shibuya Sky 屋顶展望占用 2 小时为最大时段，其余 6 个点各 10–25 分钟外观 / 短停。
+
+**本段 TST 状态**：从代官山到涩谷的东急东横线段（¥140、TST ❌）是非 TST 必费段；从涩谷到银座（半蔵门线 + 银座线）走 Tokyo Metro，TST ✅ 全段覆盖。

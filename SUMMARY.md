@@ -105,20 +105,14 @@
 * [Shibuya Sky](intros/intro-shibuya-sky.md)
 * [d47 Museum](intros/intro-d47-museum.md)
 * [Mandarake 涩谷店](intros/intro-mandarake-shibuya.md)
-* [LINE CUBE SHIBUYA](intros/intro-line-cube-shibuya.md)
-* [ユーロライブ](intros/intro-euro-live.md)
 * [RAGTAG](intros/intro-ragtag.md)
 * [Tabio](intros/intro-tabio.md)
-* [旅麺](intros/intro-tabiomen.md)
 * [代々木 Aloha 衬衫购物（アメリカ屋）](intros/intro-aloha-shirt-shopping-yoyogi.md)
 
 ### 东京—原宿 / 表参道（Harajuku / Omotesandō）
 
 * [明治神宫](intros/intro-meiji-jingu.md)
-* [明治神宫博物馆](intros/intro-meiji-jingu-museum.md)
-* [东急 Plaza 原宿「ハラカド」](intros/intro-tokyu-plaza-harajuku-harakado.md)
 * [WITH HARAJUKU HALL](intros/intro-with-harajuku-hall.md)
-* [LIFORK 原宿](intros/intro-lifork-harajuku.md)
 * [根津美术馆](intros/intro-nezu-museum.md)
 
 ### 东京—代官山（Daikanyama）
@@ -155,7 +149,6 @@
 ### 东京—神乐坂 / 早稻田（Kagurazaka / Waseda）
 
 * [神乐坂](intros/intro-kagurazaka.md)
-* [早稻田大学](intros/intro-waseda-university.md)
 
 ### 东京—浅草（Asakusa）
 

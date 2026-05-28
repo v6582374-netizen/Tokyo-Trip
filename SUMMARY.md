@@ -18,6 +18,9 @@
 * [购物清单](购物清单.md)
 * [羽田机场游玩购物指南](羽田机场游玩购物指南.md)
 * [免税香烟品鉴指南](免税香烟品鉴指南.md)
+* [銚子丸感謝祭 2026 官方核实](銚子丸感謝祭2026.md)
+* [夏威夷衬衫购买指南](夏威夷衬衫购买指南.md)
+* [珍珠购买指南](珍珠购买指南.md)
 
 ## 景点介绍（按区域）
 
@@ -67,7 +70,6 @@
 
 * [上野公园](intros/intro-ueno-park.md)
 * [东京国立博物馆](intros/intro-tokyo-national-museum.md)
-* [旧岩崎邸庭园](intros/intro-kyu-iwasaki-tei-gardens.md)
 * [东京大学](intros/intro-the-university-of-tokyo.md)
 
 ### 东京—秋叶原（Akihabara）
@@ -91,6 +93,7 @@
 * [歌舞伎町](intros/intro-kabukicho.md)
 * [新宿黄金街](intros/intro-shinjuku-golden-gai.md)
 * [东京豚骨拉面 Bankara 新宿歌舞伎町店](intros/intro-tokyo-tonkotsu-ramen-bankara-shinjuku-kabukicho.md)
+* [すし銚子丸 新宿サブナード店](intros/intro-sushi-choshimaru-shinjuku-subnade.md)
 * [大久保公园](intros/intro-okubo-park.md)
 
 ### 东京—中野（Nakano）
@@ -107,6 +110,7 @@
 * [RAGTAG](intros/intro-ragtag.md)
 * [Tabio](intros/intro-tabio.md)
 * [旅麺](intros/intro-tabiomen.md)
+* [代々木 Aloha 衬衫购物（アメリカ屋）](intros/intro-aloha-shirt-shopping-yoyogi.md)
 
 ### 东京—原宿 / 表参道（Harajuku / Omotesandō）
 

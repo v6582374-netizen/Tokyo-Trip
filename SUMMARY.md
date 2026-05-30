@@ -107,14 +107,21 @@
 * [d47 Museum](intros/intro-d47-museum.md)
 * [Mandarake 涩谷店](intros/intro-mandarake-shibuya.md)
 * [RAGTAG](intros/intro-ragtag.md)
+* [THE★JOJO WORLD（涩谷 PARCO）](intros/intro-the-jojo-world-shibuya-parco.md)
+* [Ground Y 涩谷 PARCO 店](intros/intro-ground-y-shibuya-parco.md)
 * [Tabio](intros/intro-tabio.md)
 * [代々木 Aloha 衬衫购物（アメリカ屋）](intros/intro-aloha-shirt-shopping-yoyogi.md)
+
+### 东京—中目黑（Nakameguro）
+
+* [Brooch 中目黑（山本耀司二手）](intros/intro-brooch-nakameguro.md)
 
 ### 东京—原宿 / 表参道（Harajuku / Omotesandō）
 
 * [明治神宫](intros/intro-meiji-jingu.md)
 * [WITH HARAJUKU HALL](intros/intro-with-harajuku-hall.md)
 * [根津美术馆](intros/intro-nezu-museum.md)
+* [Yohji Yamamoto 南青山本店](intros/intro-yohji-yamamoto-aoyama.md)
 
 ### 东京—代官山（Daikanyama）
 
@@ -146,6 +153,10 @@
 
 * [六本木](intros/intro-roppongi.md)
 * [21_21 Design Sight](intros/intro-21-21-design-sight.md)
+
+### 东京—麻布台 / 神谷町（Azabudai / Kamiyacho）
+
+* [集英社漫画艺术遗产 · 荒木飞吕彦《JOJO》石版画展](intros/intro-shueisha-manga-art-heritage-jojo.md)
 
 ### 东京—神乐坂 / 早稻田（Kagurazaka / Waseda）
 
